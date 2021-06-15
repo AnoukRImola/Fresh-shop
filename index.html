@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/b16888e43f.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Logo-->
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <!--Css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FreshShop</title>
+</head>
+<body>
+    <header>
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Logo-->
+            <a class="navbar-brand ml-5" href="#"><img src="./img/logo-nav.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--ul de la barra-->
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
+              <ul class="navbar-nav font-weight-bold h4">
+                  <!--Los li-->
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./producto.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./contacto.html">Contáctanos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!--Fin del Nav-->
+    </header>
+    <main>
+        <!--Carrusel-->
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/banner-01.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption align-items-lg-start d-none d-md-block">
+                  <h5>Welcome To FreshShop</h5>
+                  <p>See how your users experience your website in realtime or view trends see any changes in perfomance over time.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner-02.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Welcome To FreshShop</h5>
+                  <p>See how your users experience your website in realtime or view trends see any changes in perfomance over time.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner-03.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Welcome To FreshShop</h5>
+                  <p>See how your users experience your website in realtime or view trends see any changes in perfomance over time.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <!--Fin del Carrusel-->
+
+        <!--Card Categorías-->
+        <div class="container">
+            <!--Fila-->
+            <div class="row pt-5">
+                <div class="col m-2">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="./img/categories_img_01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body categoria text-center py-1">
+                          <p class="card-text">Lorem ipsum dolor</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col m-2">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="./img/categories_img_02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body categoria text-center py-1">
+                          <p class="card-text">Lorem ipsum dolor</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col m-2">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="./img/categories_img_03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body categoria text-center py-1">
+                          <p class="card-text">Lorem ipsum dolor</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!--Card Categorías-->
+    </main>
+
+
+
+
+
+
+
+    <!--Jquery Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

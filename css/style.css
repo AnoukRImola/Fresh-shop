@@ -1,0 +1,9 @@
+.carousel-inner{
+    height: 60vh;
+}
+
+.card-body.categoria{
+    background-color: #89d631;
+    font-size: 1rem;
+    color: white;
+}
