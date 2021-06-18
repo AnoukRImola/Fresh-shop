@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+
+.navbar{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#inicio{
+    color: hsl(88, 55%, 72%);
+}
+
 .carousel{
     max-height: 60vh;
 }
@@ -26,6 +37,24 @@
 
 footer{
     background-color: black;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.container.text-white> row > col:first-child{
+    color: blue;
+}
+
+hr{
+    margin: 0;
+    border: 3px solid;
+    color: #89d631;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+
+.horario{
+    list-style: none;
 }
 
 .list-group.pie li{
