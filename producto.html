@@ -15,9 +15,104 @@
     <title>FreshShop</title>
 </head>
 <body>
-
-
-
+    <header>
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Logo-->
+            <a class="navbar-brand ml-5" href="#"><img src="./img/logo-nav.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--ul de la barra-->
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
+              <ul class="navbar-nav font-weight-bold h4">
+                  <!--Los li-->
+                <li class="nav-item active">
+                  <a class="nav-link" id="inicio" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./producto.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./contacto.html">Contáctanos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!--Fin del Nav-->
+    </header>
+<main>
+  <di>
+    <h1>
+      Detalles de producto
+    </h1>
+  </di>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="./img/img-pro-04.jpg" alt="">
+      </div>
+      <div class="col">
+          <div>
+            <h2>Fachion Lorem ipsum dolor sit amet</h2>
+            <span><del>$60.00</del></span><span>$40.79</span>
+            <p>Descripción:</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi animi aspernatur molestias voluptatibus, eaque voluptatem eum hic rem iste reiciendis suscipit adipisci vero fugiat perspiciatis doloremque natus dolore quam at!</p>
+            <button type="button" class="btn">Comprar</button>
+            <button type="button" class="btn">Agregar al carrito</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- FOOTER -->
+<footer class="container-fluid p-3 mt-5">
+    <div class="container text-white">
+      <!-- Contenedor -->
+      <div class="row m-3">
+        <!-- Horario -->
+        <div class="col p-3">
+          <p>Horarios de atención</p>
+          <hr>
+          <ul class="horario p-0">
+            <li>Lunes-Viernes 08:00am a 05:00pm</li>
+            <li>Sábados 10:00am a 08:00pm</li>
+            <li>Domingo Cerrado</li>
+          </ul>
+        </div>
+        <!-- Formulario -->
+        <div class="col p-3">
+          <p>Newsletter</p>
+          <hr>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" ">
+            </div>
+            <button type="submit" class="btn piepag btn-primary font-weight-bolder">Enviar</button>
+          </form>
+        </div>
+        <!-- Redes -->
+        <div class="col p-3">
+          <p>Redes Sociales</p>
+          <hr>
+          <span>Lorem ipsum dolor sit anmet, consectetor adipiscing elit.</span>
+          <ul class="list-group pie list-group-horizontal">
+            <li ><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href=""><i class="fas fa-rss-square"></i></a></li>
+            <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href=""><i class="fab fa-whatsapp-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-3">
+        <span>Todos los derechos reservados ©2021</span>
+      </div>
+    </div>
+  </footer>
 
 
 

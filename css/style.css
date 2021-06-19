@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
 
+li{
+    list-style: none;
+}
+
 .navbar{
     font-family: 'Bebas Neue', cursive;
 }
@@ -40,15 +44,16 @@ footer{
     font-family: 'Noto Sans SC', sans-serif;
 }
 
-.container.text-white> row > col:first-child{
-    color: blue;
+footer p{
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 hr{
     margin: 0;
-    border: 3px solid;
-    color: #89d631;
-    width: 70%;
+    border: 0.1rem solid #89d631;
+    width: 75%;
     margin-bottom: 1rem;
 }
 
@@ -69,3 +74,49 @@ hr{
 .list-group.pie li a i{
     color: white;
 }
+.form-group{
+    line-height: 0.5rem;
+}
+
+input[placeholder=" "]{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    text-align-last: right;
+}
+
+.btn{
+    background: #89d631;
+    border: transparent;
+    border-radius: 0%;
+}
+
+.btn:hover{
+    background: gray;
+}
+
+.informacion{
+    background-color: hotpink;
+    
+}
+
+.address li{
+    margin: 1rem 0;
+}
+
+.address p, span:last-child{
+    padding-left: 1.8rem;
+    margin: 0;
+}
+
+.address li i{
+    color: #89d631;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
