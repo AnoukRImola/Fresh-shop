@@ -10,7 +10,7 @@ li{
 }
 
 #inicio{
-    color: hsl(88, 55%, 72%);
+    color: #7ED856;
 }
 
 .carousel{
@@ -29,7 +29,7 @@ li{
 
 
 .card-body.categoria{
-    background-color: #89d631;
+    background-color: #7ed856;
     font-size: 1rem;
     color: white;
 }
@@ -52,7 +52,7 @@ footer p{
 
 hr{
     margin: 0;
-    border: 0.1rem solid #89d631;
+    border: 0.1rem solid #7ed856;
     width: 75%;
     margin-bottom: 1rem;
 }
@@ -85,7 +85,7 @@ input[placeholder=" "]{
 }
 
 .btn{
-    background: #89d631;
+    background: #7ed856;
     border: transparent;
     border-radius: 0%;
 }
@@ -115,6 +115,16 @@ input[placeholder=" "]{
 }
 
 
+
+
+
+
+
+
+.jumbotron.producto{
+    background-image: url(https://neta.com.co/wp-content/uploads/2019/10/fresas-neta-1200x300.jpg);
+    background-size: cover;
+}
 
 
 
