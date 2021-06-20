@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
 
+
+/*Generales*/
+.btn{
+    background: #7ed856;
+    border: transparent;
+    border-radius: 0%;
+    font-weight: bolder;
+    color: white;
+}
+
 li{
     list-style: none;
 }
@@ -9,10 +19,16 @@ li{
     font-family: 'Bebas Neue', cursive;
 }
 
+
+/******PAGINA PRINCIPAL******/
+
+/*Navbar*/
 #inicio{
     color: #7ED856;
 }
 
+
+/*Carrusel*/
 .carousel{
     max-height: 60vh;
 }
@@ -27,7 +43,7 @@ li{
 }
 
 
-
+/*Card de categorías*/
 .card-body.categoria{
     background-color: #7ed856;
     font-size: 1rem;
@@ -35,11 +51,15 @@ li{
     height: 7vh;
 }
 
+
+/*Jumbotron página principal */
 .jumbotron img[alt]{
     width: 45%;
     margin: 1rem 1rem;
 }
 
+
+/*Footer*/
 footer{
     background-color: black;
     font-family: 'Noto Sans SC', sans-serif;
@@ -58,7 +78,6 @@ hr{
     margin-bottom: 1rem;
 }
 
-
 .horario{
     list-style: none;
 }
@@ -75,6 +94,7 @@ hr{
 .list-group.pie li a i{
     color: white;
 }
+
 .form-group{
     line-height: 0.5rem;
 }
@@ -85,22 +105,21 @@ input[placeholder=" "]{
     text-align-last: right;
 }
 
-.btn{
-    background: #7ed856;
-    border: transparent;
-    border-radius: 0%;
-    font-weight: bolder;
-    color: white;
-}
-
 .btn:hover{
     background: gray;
 }
 
+
+
+/********PÁGINA DE CONTACTO******/
+
+
+/*Título de contactanos*/
 .h2{
     font-family: 'Bebas Neue', cursive;
 }
 
+/*Banner de información*/
 .informacion{
     padding: 1rem;
     background-image: url(/img/contact-bg.jpg);
@@ -130,21 +149,15 @@ input[placeholder=" "]{
 }
 
 
+/**********PÁGINA DE PRODUCTO*********/
 
 
-
-
-
-
+/*Banner de encabezado*/
 .jumbotron.producto{
     background-image: url(/img/encabezado.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
-}
-
-img[alt="producto"]{
-   
 }
 
 .fachion h2{
@@ -162,5 +175,14 @@ img[alt="producto"]{
     margin-bottom: 2rem;
 }
 
+/* Medias Queries */
 
+/*mobile*/
+@media(min-width:320px) and (max-width:480px){
+
+    /*Jumbotron página principal */
+    .jumbotron img[alt] {
+    width: 90%;
+    }
+}
 
