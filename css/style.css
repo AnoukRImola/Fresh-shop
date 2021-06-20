@@ -42,8 +42,24 @@ li{
  height: 60vh;
 }
 
+.carousel-caption{
+    transform: translate(-1%);
+     top: 30%;
+     font-size: 2vh;
+}
+
+.carousel-caption h5{
+    font-size: 8vh;
+    color: ivory;
+    font-weight: bolder;
+}
+
 
 /*Card de categorías*/
+.card.shadow{
+    width: 20rem;
+}
+
 .card-body.categoria{
     background-color: #7ed856;
     font-size: 1rem;
@@ -129,6 +145,10 @@ input[placeholder=" "]{
 
 }
 
+.contactinfo{
+    margin-left: 3rem;
+}
+
 .informacion h2{
     font-family: 'Bebas Neue', cursive;
 }
@@ -175,14 +195,50 @@ input[placeholder=" "]{
     margin-bottom: 2rem;
 }
 
+
+
 /* Medias Queries */
 
 /*mobile*/
 @media(min-width:320px) and (max-width:480px){
 
+    /*carousel*/
+    .carousel-inner{
+        height: 28vh;
+       }
+
+    .carousel-caption{
+       transform: translate(-1%);
+       top: 20%;
+       font-size: 1.30vh;
+    }   
+
+    .carousel-caption h5{
+        font-size: 3.5vh;   
+    }   
+
+    /*card categoría*/
+    .card.shadow{
+        width: 13rem;
+        margin: 0 3.5rem;
+    }
+
     /*Jumbotron página principal */
     .jumbotron img[alt] {
     width: 90%;
+    }
+
+    footer .col{
+        margin: 1rem 2rem;
+    }
+
+    #linea-pie{
+        padding-left: 0;
+    }
+
+    .contactinfo{
+        margin-left: 0;
+        padding-top: 1rem;
     }
 }
 
