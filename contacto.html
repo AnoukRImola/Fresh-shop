@@ -17,7 +17,7 @@
 <body>
     <header>
         <!--Nav-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
             <!--Logo-->
             <a class="navbar-brand ml-5" href="#"><img src="./img/logo-nav.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
               <ul class="navbar-nav font-weight-bold h4">
                   <!--Los li-->
-                <li class="nav-item active">
+                <li class="nav-item active mx-3">
                   <a class="nav-link" id="inicio" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link text-dark" href="./producto.html">Productos</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                   <a class="nav-link text-dark" href="./contacto.html">Contáctanos</a>
                 </li>
               </ul>
@@ -41,12 +41,15 @@
           </nav>
           <!--Fin del Nav-->
     </header>
+
     <main>
+        <!-- CONTENDOR PRINCIPAL -->
         <div class="container">
             <div class="row">
+                <!-- Info Formulario -->
                 <div class="col">
-                    <h1>CONTACTANOS</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem dolore veritatis, nostrum reiciendis consequuntur enim! </p>
+                    <h1 class="h2">CONTÁCTANOS</h1>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem dolore veritatis, nostrum reiciendis consequuntur enim! </p>
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Your Name">
@@ -65,11 +68,13 @@
                           <button type="submit" class="btn btn-primary mb-2">Enviar</button>
                     </form>
                 </div>
-                <div class="col">
-                    <div class="informacion">
-                        <h2>INFORMACIÓN DE CONTACTO</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ducimus facilis at quia earum, accusantium soluta debitis expedita ratione dignissimos cumque rem atque adipisci dolores eaque quas nemo asperiores obcaecati?</p>
-                        <ul class="address">
+                <!-- Info de Contacto -->
+                <div class="col ml-5">
+                  <div class="jumbotron p-0">
+                    <div class="container informacion">
+                      <h2>INFORMACIÓN DE CONTACTO</h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ducimus facilis at quia earum, accusantium soluta debitis expedita ratione dignissimos cumque rem atque adipisci dolores eaque quas nemo asperiores obcaecati?</p>
+                        <ul class="address p-0">
                             <li><i class="fas fa-map-marker-alt"></i><span>Address:Michael I. Days9000</span>
                                 <p>Preston Street Wichita,</p>
                                 <span>KS 87213</span></li>
@@ -77,9 +82,11 @@
                             <li><i class="fas fa-envelope"></i>Email: contactinfo@gmail.com</li>
                         </ul>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
+        <!-- Fin del contenedor principal -->
     </main>
 
 <!-- FOOTER -->
@@ -130,11 +137,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
 
     <!--Jquery Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

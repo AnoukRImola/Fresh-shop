@@ -32,6 +32,7 @@ li{
     background-color: #7ed856;
     font-size: 1rem;
     color: white;
+    height: 7vh;
 }
 
 .jumbotron img[alt]{
@@ -88,15 +89,29 @@ input[placeholder=" "]{
     background: #7ed856;
     border: transparent;
     border-radius: 0%;
+    font-weight: bolder;
+    color: white;
 }
 
 .btn:hover{
     background: gray;
 }
 
+.h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
 .informacion{
-    background-color: hotpink;
-    
+    padding: 1rem;
+    background-image: url(/img/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.informacion h2{
+    font-family: 'Bebas Neue', cursive;
 }
 
 .address li{
@@ -122,11 +137,30 @@ input[placeholder=" "]{
 
 
 .jumbotron.producto{
-    background-image: url(https://neta.com.co/wp-content/uploads/2019/10/fresas-neta-1200x300.jpg);
-    background-size: cover;
+    background-image: url(/img/encabezado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
+img[alt="producto"]{
+   
+}
 
+.fachion h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fachion span:last-of-type{
+    color: #89d631;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.fachion p:last-of-type{
+    border-bottom: black 1px dotted;
+    margin-bottom: 2rem;
+}
 
 
 
