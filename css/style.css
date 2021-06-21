@@ -79,6 +79,8 @@ li{
 footer{
     background-color: black;
     font-family: 'Noto Sans SC', sans-serif;
+    margin-top: 3rem;
+    padding: 2rem;
 }
 
 footer p{
