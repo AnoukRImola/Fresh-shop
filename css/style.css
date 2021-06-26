@@ -225,7 +225,7 @@ input[placeholder=" "]{
         margin: 0 3.5rem;
     }
 
-    /*Jumbotron página principal */
+    /*Jumbotron página principal*/
     .jumbotron img[alt] {
     width: 90%;
     }
@@ -241,6 +241,11 @@ input[placeholder=" "]{
     .contactinfo{
         margin-left: 0;
         padding-top: 1rem;
+    }
+
+    /*imagen página producto*/
+    img[alt="producto"]{
+        margin-right: 0.29rem;
     }
 }
 
